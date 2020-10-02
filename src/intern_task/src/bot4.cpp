@@ -18,10 +18,10 @@ struct bot_info {
 bot_info bot;
 void initialvals() {
   bot.bot_id=4;
-  bot.location_x=25;
-  bot.location_y=-25;
+  bot.location_x=35;
+  bot.location_y=-35;
   bot.velocityangle=PI;
-  bot.velocity=1;
+  bot.velocity=1.2;
   bot.change_direction_counter=0;
 }
 
